@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>THE PLANETS</h1>
+      <div class="HRConteienr" id="HRConteienr">
+        <hr />
+        <hr />
+        <hr />
+      </div>
+    </header>
+    <hr class="HRslider hRONe" />
+    <div class="ChoosePlanet" id="ChoosePlanet">
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval1"></div>
+            <p>MERCURY</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval2"></div>
+            <p>VENUS</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval3"></div>
+            <p>EARTH</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval4"></div>
+            <p>MARS</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval5"></div>
+            <p>JUPITER</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval6"></div>
+            <p>SATURN</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval7"></div>
+            <p>URANUS</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+      <div>
+        <div class="manyplanets">
+          <div class="row">
+            <div class="oval oval8"></div>
+            <p>NEPTUNE</p>
+          </div>
+          <img src="starter-code/assets/icon-chevron.svg" alt="" />
+        </div>
+        <hr class="manyplanetsLine" />
+      </div>
+    </div>
+
+    <div id="None">
+      <div class="paragraphs">
+        <p class="overview" onclick="overview()">OVERVIEW</p>
+        <p class="Structure" onclick="structure()">Structure</p>
+        <p class="Surface" onclick="Surface()">Surface</p>
+      </div>
+
+      <hr class="small" id="smallLine" />
+      <hr class="HRslider" />
+      <img
+        class="planet"
+        id="planet1"
+        src="starter-code/assets/planet-mercury.svg"
+        alt=""
+      />
+      <img
+        class="planet2"
+        id="planet2"
+        src="starter-code/assets/planet-venus.svg"
+        alt=""
+      />
+      <img
+        class="planet3"
+        id="planet3"
+        src="starter-code/assets/planet-earth.svg"
+        alt=""
+      />
+
+      <img
+        class="planet4"
+        id="planet4"
+        src="starter-code/assets/planet-mars.svg"
+        alt=""
+      />
+
+      <img
+        class="planet5"
+        id="planet5"
+        src="starter-code/assets/planet-jupiter.svg"
+        alt=""
+      />
+
+      <img
+        class="planet6"
+        id="planet6"
+        src="starter-code/assets/planet-saturn.svg"
+        alt=""
+      />
+
+      <img
+        class="planet7"
+        id="planet7"
+        src="starter-code/assets/planet-uranus.svg"
+        alt=""
+      />
+
+      <img
+        class="planet8"
+        id="planet8"
+        src="starter-code/assets/planet-neptune.svg"
+        alt=""
+      />
+      <img
+        class="planet0"
+        id="structurePlanet1"
+        src="starter-code/assets/planet-mercury-internal.svg"
+        alt=""
+      />
+
+      <img
+        class="planet2"
+        id="structurePlanet2"
+        src="starter-code/assets/planet-venus-internal.svg"
+        alt=""
+      />
+
+      <img
+        class="planet3"
+        id="structurePlanet3"
+        src="starter-code/assets/planet-earth-internal.svg"
+        alt=""
+      />
+
+      <img
+        class="planet4"
+        id="structurePlanet4"
+        src="starter-code/assets/planet-mars-internal.svg"
+        alt=""
+      />
+
+      <img
+        class="planet5"
+        id="structurePlanet5"
+        src="starter-code/assets/planet-jupiter-internal.svg"
+        alt=""
+      />
+
+      <img
+        class="planet6"
+        id="structurePlanet6"
+        src="starter-code/assets/planet-saturn-internal.svg"
+        alt=""
+      />
+      <img
+        class="planet7"
+        id="structurePlanet7"
+        src="starter-code/assets/planet-uranus-internal.svg"
+        alt=""
+      />
+      <img
+        class="planet8"
+        id="structurePlanet8"
+        src="starter-code/assets/planet-neptune-internal.svg"
+        alt=""
+      />
+
+      <img
+        class="planet0"
+        id="surfaceplanet1"
+        src="starter-code/assets/geology-mercury.png"
+        alt=""
+      />
+
+      <img
+        class="planet2"
+        id="surfaceplanet2"
+        src="starter-code/assets/geology-venus.png"
+        alt=""
+      />
+
+      <img
+        class="planet3"
+        id="surfaceplanet3"
+        src="starter-code/assets/geology-earth.png"
+        alt=""
+      />
+
+      <img
+        class="planet4"
+        id="surfaceplanet4"
+        src="starter-code/assets/geology-mars.png"
+        alt=""
+      />
+
+      <img
+        class="planet5"
+        id="surfaceplanet5"
+        src="starter-code/assets/geology-jupiter.png"
+        alt=""
+      />
+
+      <img
+        class="planet6"
+        id="surfaceplanet6"
+        src="starter-code/assets/geology-saturn.png"
+        alt=""
+      />
+      <img
+        class="planet7"
+        id="surfaceplanet7"
+        src="starter-code/assets/geology-uranus.png"
+        alt=""
+      />
+      <img
+        class="planet8"
+        id="surfaceplanet8"
+        src="starter-code/assets/geology-neptune.png"
+        alt=""
+      />
+
+      <div class="Mercury" id="Mercury">
+        <h1 id="Name">MERCURY</h1>
+        <p id="Paragraph">
+          Mercury is the smallest planet in the Solar System and the closest to
+          the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest
+          of all the Sun's planets. Mercury is one of four terrestrial planets
+          in the Solar System, and is a rocky body like Earth.
+        </p>
+
+        <div class="IMGandParagraph">
+          <p>
+            <span class="sourcespan">Source :</span>
+            <a
+              id="link"
+              href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%94%E1%83%A0%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98"
+            >
+              Wikipedia</a
+            >
+          </p>
+          <img src="starter-code/assets/icon-source.svg" alt="" />
+        </div>
+      </div>
+      <footer>
+        <div class="rotation">
+          <p>ROTATION TIME</p>
+          <h2>58.6 days</h2>
+        </div>
+
+        <div class="rotation">
+          <p>REVOLUTION TIME</p>
+          <h2>87.97 days</h2>
+        </div>
+
+        <div class="rotation">
+          <p>radius</p>
+          <h2>2,439.7 km</h2>
+        </div>
+
+        <div class="rotation">
+          <p>AVERAGE TEMP.</p>
+          <h2>430°c</h2>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
